@@ -22,7 +22,6 @@ public class WtfThread {
             waitObj.wait();
           }
         } catch (InterruptedException e) {
-          // TODO Auto-generated catch block
           e.printStackTrace();
         }
       }
@@ -39,7 +38,6 @@ public class WtfThread {
               Thread.sleep(1000);
             }
           } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
           }
         }
@@ -54,7 +52,6 @@ public class WtfThread {
           try {
             Thread.sleep(1000);
           } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
           }
         }
